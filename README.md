@@ -1,4 +1,4 @@
-# Indieweb Code Samples
+# IndieWeb Code Samples
 
 A collection of code snippets I've developed on https://calumryan.com with the intention that everything I publish on the web is on my own domain and within my control and ownership.
 
