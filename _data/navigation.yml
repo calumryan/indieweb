@@ -2,9 +2,9 @@
 
 
 - title: Home
-  url: /indieweb/
+  url: /
   type: nav-home
 
 - title: Search
-  url: /indieweb/search/
+  url: /search/
   type: nav-normal
