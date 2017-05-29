@@ -1,0 +1,10 @@
+# Site navigation links
+
+
+- title: Home
+  url: /indieweb/
+  type: nav-home
+
+- title: Search
+  url: /indieweb/search/
+  type: nav-normal

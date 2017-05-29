@@ -1,0 +1,23 @@
+{
+  "name": "tonbridgedigital-theme",
+  "author": "Tonbridge Digital <general@tonbridge.digital",
+  "homepage": "http://tonbridge.digital/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tonbridgedigital/tonbridgedigital.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/tonbridgedigital/tonbridgedigital.github.io/issues"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-svgmin": "~0.2.0"
+  }
+}
