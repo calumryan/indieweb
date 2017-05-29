@@ -16,6 +16,10 @@
 
     &__big {
       height: 100vh;
+
+      &:after {
+        @extend .clearfix;
+      }
     }
 
     .wrap {

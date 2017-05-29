@@ -17,6 +17,11 @@ body {
   font-size: 0px + $doc-font-size;
 }
 
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 // COLORS =====================================================
 $body-color               : #FFF;
