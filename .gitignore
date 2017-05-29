@@ -1,0 +1,17 @@
+## Files
+*.DS_Store
+composer.json
+composer.lock
+composer.phar
+
+## Jekyll
+_site
+.jekyll
+.jekyll-metadata
+.bundle
+.sass-cache
+Gemfile
+Gemfile.lock
+node_modules
+package.json
+_plugins/.cache/
