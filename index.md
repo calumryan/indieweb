@@ -6,7 +6,7 @@ search_omit: true
 logo: true
 ---
 
-We're currently writing a collection of guides to explain what the IndieWeb community is about and why we think it's important to own the data you publish.
+## We're currently writing a collection of guides to explain what the IndieWeb community is about and why we think it's important to own the data you publish.
 
 <!-- <ul class="articles-navigation">
   <li><div><h3><a href="/content-management/">Managing and storing your content</a></h3><p>Mauris ullamcorper orci quis libero tincidunt, a placerat lectus iaculis. Nullam elementum nisi at rhoncus ultrices.</p></div></li>
