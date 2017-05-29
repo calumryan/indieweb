@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/articles/drupal/</loc>
+<loc>https://calumryan.github.io/indieweb/articles/drupal/</loc>
 <lastmod>2017-02-20T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/content-management/</loc>
+<loc>https://calumryan.github.io/indieweb/content-management/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/interaction/</loc>
+<loc>https://calumryan.github.io/indieweb/interaction/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/publishing/</loc>
+<loc>https://calumryan.github.io/indieweb/publishing/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/sharing/</loc>
+<loc>https://calumryan.github.io/indieweb/sharing/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/writing/</loc>
+<loc>https://calumryan.github.io/indieweb/writing/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>https://calumryan.github.io/indieweb/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/search/</loc>
+<loc>https://calumryan.github.io/indieweb/search/</loc>
 </url>
 </urlset>
