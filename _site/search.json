@@ -3,7 +3,7 @@
   
     {
       "title"			: "Launch!",
-      "link"			: "https://calumryan.github.io/indieweb/articles/drupal/",
+      "link"			: "http://localhost:4000/articles/drupal/",
       "excerpt"		: "Drupal"
     }
   
@@ -15,7 +15,7 @@
   
     ,{
       "title"			: "Managing and storing your content",
-      "link"			: "https://calumryan.github.io/indieweb/content-management/",
+      "link"			: "http://localhost:4000/content-management/",
       "excerpt"		: ""
     }
   
@@ -23,7 +23,7 @@
   
     ,{
       "title"			: "Interaction with other people on the web",
-      "link"			: "https://calumryan.github.io/indieweb/interaction/",
+      "link"			: "http://localhost:4000/interaction/",
       "excerpt"		: "When you interact with friends, family and colleagues on the Web you do this using standard protocols that different systems can understand. Here we explore how the IndieWeb utilises different technologies to communicate securely from one person to another: to like, comment and respond to each others posts just as we can on popular social networks."
     }
   
@@ -33,7 +33,7 @@
   
     ,{
       "title"			: "Sharing your content with others and consuming what they share",
-      "link"			: "https://calumryan.github.io/indieweb/sharing/",
+      "link"			: "http://localhost:4000/sharing/",
       "excerpt"		: ""
     }
   
@@ -41,7 +41,7 @@
   
     ,{
       "title"			: "Writing your content",
-      "link"			: "https://calumryan.github.io/indieweb/writing/",
+      "link"			: "http://localhost:4000/writing/",
       "excerpt"		: ""
     }
   
@@ -51,7 +51,7 @@
   
     ,{
       "title"			: "Search",
-      "link"			: "https://calumryan.github.io/indieweb/search/",
+      "link"			: "http://localhost:4000/search/",
       "excerpt"		: ""
     }
   

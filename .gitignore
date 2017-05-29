@@ -5,6 +5,7 @@ composer.lock
 composer.phar
 
 ## Jekyll
+_site
 .jekyll
 .jekyll-metadata
 .bundle
