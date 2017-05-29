@@ -15,7 +15,7 @@
   
     ,{
       "title"			: "Managing and storing your content",
-      "link"			: "http://localhost:4000/indieweb/content-management/",
+      "link"			: "http://localhost:4000/content-management/",
       "excerpt"		: ""
     }
   
@@ -23,7 +23,7 @@
   
     ,{
       "title"			: "Interaction with other people on the web",
-      "link"			: "http://localhost:4000/indieweb/interaction/",
+      "link"			: "http://localhost:4000/interaction/",
       "excerpt"		: "When you interact with friends, family and colleagues on the Web you do this using standard protocols that different systems can understand. Here we explore how the IndieWeb utilises different technologies to communicate securely from one person to another: to like, comment and respond to each others posts just as we can on popular social networks."
     }
   
@@ -33,7 +33,7 @@
   
     ,{
       "title"			: "Sharing your content with others and consuming what they share",
-      "link"			: "http://localhost:4000/indieweb/sharing/",
+      "link"			: "http://localhost:4000/sharing/",
       "excerpt"		: ""
     }
   
@@ -41,7 +41,7 @@
   
     ,{
       "title"			: "Writing your content",
-      "link"			: "http://localhost:4000/indieweb/writing/",
+      "link"			: "http://localhost:4000/writing/",
       "excerpt"		: ""
     }
   
@@ -51,7 +51,7 @@
   
     ,{
       "title"			: "Search",
-      "link"			: "http://localhost:4000/indieweb/search/",
+      "link"			: "http://localhost:4000/search/",
       "excerpt"		: ""
     }
   

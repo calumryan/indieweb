@@ -2,14 +2,14 @@
 <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Sharing your content with others and consuming what they share | Introducing the IndieWeb</title>
-<meta name="description" content="">
+<title>Search | Introducing the IndieWeb</title>
+
 
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="Sharing your content with others and consuming what they share">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="Search">
+
 <meta name="twitter:site" content="@indiewebcamp">
 <meta name="twitter:creator" content="@indiewebcamp">
 
@@ -19,16 +19,16 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_GB">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Sharing your content with others and consuming what they share">
-<meta property="og:description" content="">
-<meta property="og:url" content="http://localhost:4000/indieweb/sharing/">
+<meta property="og:title" content="Search">
+
+<meta property="og:url" content="http://localhost:4000/search/">
 <meta property="og:site_name" content="Introducing the IndieWeb">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/indieweb/sharing/">
+<link rel="canonical" href="http://localhost:4000/search/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Introducing the IndieWeb Feed">
 
 <!-- https://t.co/dKP3o1e -->
@@ -92,7 +92,7 @@
   
   <header class="entry-header">
     <div class="entry-wrapper">
-      <h1 class="entry-title">Sharing your content with others and consuming what they share</h1>
+      <h1 class="entry-title">Search</h1>
     </div>
   </header>
   
@@ -106,7 +106,27 @@
 
         <p></p>
 
-        
+        <!-- Search form -->
+<form method="get" action="http://localhost:4000/search/" data-search-form="" class="simple-search">
+  <label for="q">Search Introducing the IndieWeb for:</label>
+  <input type="search" name="q" id="goog-wm-qt" placeholder="What are you looking for?" data-search-input="" autofocus="" />
+  <input type="submit" value="Search" id="goog-wm-sb" />
+</form>
+
+<!-- Search results placeholder -->
+<h6 data-search-found="">
+  <span data-search-found-count=""></span> result(s) found for &ldquo;<span data-search-found-term=""></span>&rdquo;.
+</h6>
+<ul class="post-list" data-search-results=""></ul>
+
+<!-- Search result template -->
+<script type="text/x-template" id="search-result">
+  <li><article>
+    <a href="##Url##">##Title## <span class="excerpt">##Excerpt##</span></a>
+  </article></li>
+</script>
+
+
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
   </article>
