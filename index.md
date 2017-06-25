@@ -51,10 +51,10 @@ logo: true
 		<h2>Isn’t getting your website a lot of work/expense?</h2>
 		<div class="row">
 			<div class="column medium-6 small-12">
-				<p class="spacer">Having your website can seem like a lot of expense and work keeping it updated, organising a suitable place to host it and finding a content management system that’s secure but easy to setup and use.</p>
+				<p class="spacer">Starting your own website can seem like a lot of expense and work keeping it updated, organising a suitable place to host it and finding a content management system that’s secure but easy to setup and use.</p>
 			</div>
 			<div class="column medium-6 small-12">
-				<p>Whilst this can put many off ever setting up their own website, the end result is that you get to do a whole lot more with your content in the long term. When social media websites shutdown or get acquired by other companies your precious personal content such as blog posts, photos and messages can be lost all to easily.</p>
+				<p>Whilst this can put many off ever setting up their own website, the end result is that you get to do a whole lot more with your content in the long term. When social media websites shutdown or get acquired by other companies your precious personal content such as blog posts, photos and messages can be lost all too easily.</p>
 			</div>
 			<div class="column column-center small-12">
 				<p><em><strong>The question to ask yourself is...</strong></em><br>Will setting up my own website be worth the effort in return for greater control over the content I publish and share and on the web?</p>
