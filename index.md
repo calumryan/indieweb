@@ -17,7 +17,7 @@ logo: true
 	<div class="section-content">
 		<div class="row">
 			<div class="column column-center small-12">
-				<p>Ever felt frustrated by the limitations of you favourite social media site to post, share and consume the content in a way more customised or personalised to <strong>YOU</strong>?</p>
+				<p>Ever feel frustrated by the limitations of your favourite social media site to post, share and consume the content in a way more customised and personalised to <strong>YOU</strong>?</p>
 			</div>
 			<div class="column small-12 medium-6">
 				<p>Or what about those occasions when a friend or family member isn’t on the same social media website as you? It can be a real pain sharing something with them unless they’ve got an account also. They may not be able to or want to sign-up for their own account.</p>
