@@ -216,6 +216,54 @@ span + .entry-title {
 }
 
 /*
+   Engagement
+   ========================================================================== */
+.engagement-links {
+	padding: 0;
+	margin: auto;
+	display: table;
+	// display: flex;
+	// flex-flow: row wrap;
+	// justify-content: center;
+
+	&__text {
+		font-size: 20px;
+		text-align: center;
+		font-weight: 600;
+		margin-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	li {
+		margin: auto auto 60px auto;
+		list-style: none;
+		display: block;
+		@include media($medium) {
+			display: list-item;
+			width: 33.333%;
+			float: left;
+		}
+		// flex-flow: column;
+		// display: flex;
+		// justify-content: flex-start;
+
+		a {
+			display: block;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		svg {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			margin: auto;
+		}
+	}
+}
+
+/*
    Disqus
    ========================================================================== */
 

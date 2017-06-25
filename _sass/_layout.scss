@@ -1,0 +1,127 @@
+.section {
+  background-color: #FFF;
+
+  &-content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 87.5%;
+    @include media($large) {
+      //width: 980px;
+      width: 70%;
+    }
+
+    > h2 {
+      text-align: center;
+      margin: 50px 0 0 0;
+    }
+  }
+
+  &-b1 {
+    background-color: #424242;
+    color: #FFF;
+  }
+
+  &-c1 {
+    .column > h2 {
+      margin: auto 0;
+    }
+    p {
+      @include font-size(20);
+      line-height: 2rem;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+    .column {
+      padding: 20px 15px;
+      @include media($medium) {
+        padding: 40px 15px;
+      }
+    }
+    .column-header {
+      padding-bottom: 0;
+      @include media($medium) {
+        padding-bottom: 40px;
+      }
+    }
+  }
+}
+
+.column {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  min-height: 2px;
+
+  &-center {
+    text-align: center;
+
+    p {
+      @include font-size(25);
+    }
+  }
+
+  @include media($medium) {
+    .spacer {
+      padding-right: 30px;
+    }
+  }
+}
+
+.row {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-flow: row wrap;
+  //justify-content: center;
+
+  &:before, &:after {
+      content: ' ';
+      display: table
+  }
+
+  &:after {
+    clear: both
+  }
+}
+
+.small {
+  &-12{
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+.medium {
+  &-6 {
+    @include media($medium) {
+      min-width: 50%;
+      max-width: 50%;
+      flex:1 0 50%;
+    }
+  }
+  &-offset-6 {
+    @include media($medium) {
+      margin-left: 50%;;
+    }
+  }
+}
+
+.large {
+  &-6 {
+    @include media($large) {
+      min-width: 50%;
+      max-width: 50%;
+      flex:1 0 50%;
+    }
+  }
+}

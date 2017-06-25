@@ -34,7 +34,11 @@ body {
   width: 100%;
   font-family: $base-font;
   color: $text-color;
-  background-color: $body-color;
+  background-color: #FFF;
+	padding-top: 50px;
+	@include media($medium) {
+		padding-top: 76px;
+	}
   //border-top: 5px solid $white;
 }
 
@@ -71,7 +75,7 @@ h1 {
 }
 
 h2 {
-	@include font-size(32);
+	@include font-size(28);
 }
 
 h3 {

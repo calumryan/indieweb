@@ -5,63 +5,116 @@
 .navigation-wrapper {
   text-align: center;
   @include clearfix;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 2;
-  background-color: $td;
+  background-color: #FFF;
+  border-bottom: 1px solid #e2e2e2;
+
+  @include media($medium) {
+        background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .site-nav-toggle {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 15px 20px;
+    border: 0;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+
+    &:hover, &:focus {
+      outline:none;
+      color: $link-color;
+    }
+
+    @include media($medium) {
+      display: none;
+    }
+  }
+
+  &__logo {
+    display: block;
+
+    @include media($medium) {
+      float: left;
+      display: inline-block;
+    }
+
+    svg {
+      display: block;
+      width: 100px;
+      height: auto;
+      @include media($medium) {
+        width: 150px;
+      }
+    }
+  }
 
   ul {
     display: inline-block;
-    //width: 100%;
     vertical-align: top;
-    margin: 0;
-    padding: 4px 20px;
-    background-color: $td;
+    margin: 17px 0;
+    padding: 0;
+    width: 80%;
+    @include clearfix;
 
     @include media($medium) {
+      padding: 4px 20px;
       width: auto;
-      @include rounded(0 0 10px 10px);
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding-top: 15px;
+      padding-bottom: 0;
+      margin: 0;
     }
 
-    @include clearfix;
   }
 
   li {
     display: block;
-    float: left;
     list-style: none;
     text-align: center;
     @include font-size(14,no);
-    color: $white;
     font-weight: 600;
 
     @include media($medium) {
       @include font-size(18,no);
+      float: left;
     }
 
     a:hover {
       // @include box-shadow($shadow: inset 0 0 1px $white);
-      // color: $td;
+      // color: $indieweb;
     }
 
   }
 
   a {
     display: block;
-    padding: 12px 10px;
+    padding: 5px 0;
+    color: $link-color;
+    border-bottom: 1px solid #ececec;
 
     @include media($medium) {
       padding: 10px 15px;
+      border:none;
     }
 
-    color: $white;
-    @include rounded(4px);
+
 
     &:hover, &:focus, &:active {
-      color: #fff;
-      border: none;
+      color: $link-color;
       text-decoration: underline;
+    }
+  }
+
+  li:last-child {
+    a {
+      border:none;
     }
   }
 }
@@ -71,14 +124,20 @@
    ========================================================================== */
 
 #site-nav {
-  display: none;
   z-index: 5;
+  background-color: #FFF;
+  width: auto;
+  float: none;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
+  overflow: hidden;
 
   @include media($medium) {
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
+    float: right;
+    width: auto;
+    background-color: transparent;
+    max-height: 900px;
+    transition: none;
   }
 
   &.closed {
@@ -102,25 +161,29 @@
   }
 }
 
+.body-state--open #site-nav {
+  max-height: 900px;
+}
+
 /* display when JavaScript is disabled */
-.no-js #site-nav {
-  display: block;
-}
+// .no-js #site-nav {
+//   display: block;
+// }
 
-#nav-toggle {
-  z-index: 20;
-  display: block;
-  vertical-align: top;
-  margin: 0;
-  padding: 6px 20px;
-  background-color: $black;
-  height: 44px;
-  @include rounded(0);
-
-  @include media($medium) {
-    display: none;
-  }
-}
+// #nav-toggle {
+//   z-index: 20;
+//   display: block;
+//   vertical-align: top;
+//   margin: 0;
+//   padding: 6px 20px;
+//   background-color: $black;
+//   height: 44px;
+//   @include rounded(0);
+//
+//   @include media($medium) {
+//     display: none;
+//   }
+// }
 
 .articles-navigation {
   padding: 30px 0;
@@ -161,11 +224,11 @@
 }
 
 .takepart {
-  background-color: $td;
+  background-color: $indieweb;
   color: #FFF;
   padding: 50px 0;
   text-align: center;
-  
+
   h2 {
     margin-top: 0;
   }

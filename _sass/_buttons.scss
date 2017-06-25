@@ -10,11 +10,12 @@
   display: inline-block;
   margin-bottom: 20px;
   padding: 8px 20px;
-  @include font-size(14);
-  background-color: $td;
+  @include font-size(20);
+  background-color: $indieweb;
   color: $white;
-  border: 2px solid $td !important;
+  border: 2px solid $indieweb !important;
   border-radius: $border-radius;
+  font-weight: 600;
 
   &:visited {
     color: $white;
@@ -22,7 +23,12 @@
 
   &:hover {
     background-color: $white;
-    color: $black;
+    color: $indieweb;
+  }
+
+  &-center {
+    display: table;
+    margin: auto;
   }
 }
 

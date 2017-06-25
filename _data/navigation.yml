@@ -1,10 +1,17 @@
 # Site navigation links
 
-
-- title: Home
+- title: Introducing
   url: /
-  type: nav-home
+  type: nav-normal
 
-- title: Search
-  url: /search/
+- title: Get involved
+  url: /get-involved
+  type: nav-normal
+
+- title: Guides
+  url: /guides/
+  type: nav-normal
+
+- title: Contribute +
+  url: /contribute/
   type: nav-normal
