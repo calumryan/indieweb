@@ -102,6 +102,7 @@ logo: true
 				<p>Perhaps reading documents isn’t your thing and you’d rather take part in conversation with our community to get help with the next steps?</p>
 			</div>
 			<div class="column">
+				<aside>
 				<ul class="engagement-links">
 					<li>
 						<a href="https://chat.indieweb.org/slack">
@@ -121,11 +122,10 @@ logo: true
 						<a href="https://www.facebook.com/indiewebcamp/">
 							<div class="engagement-links__text">Post on our Facebook Page</div>
 							<svg width="65" viewBox="0 0 835 835" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><title>F</title><path d="M788.01 834.047c25.418 0 46.03-20.613 46.03-46.03V46.033C834.04 20.606 813.43 0 788.01 0H46.03C20.604 0 0 20.606 0 46.034v741.982c0 25.418 20.603 46.03 46.03 46.03h741.98z" fill="#000" fill-rule="nonzero"/><path d="M575.473 834.047V511.062h108.415l16.232-125.875H575.473v-80.365c0-36.444 10.12-61.278 62.38-61.278l66.657-.032v-112.58c-11.53-1.532-51.097-4.96-97.128-4.96-96.103 0-161.894 58.66-161.894 166.387v92.825h-108.69V511.06h108.69v322.986h129.985z" fill="#fff" fill-rule="nonzero"/></svg>
-
 						</a>
 					</li>
-					<li></li>
 				</ul>
+				</aside>
 			</div>
 		</div>
 	</div>

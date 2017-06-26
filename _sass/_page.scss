@@ -221,10 +221,11 @@ span + .entry-title {
 .engagement-links {
 	padding: 0;
 	margin: auto;
-	display: table;
-	// display: flex;
-	// flex-flow: row wrap;
-	// justify-content: center;
+	display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+	justify-content: space-around;
+
 
 	&__text {
 		font-size: 20px;
@@ -236,17 +237,9 @@ span + .entry-title {
 	}
 
 	li {
-		margin: auto auto 60px auto;
+		margin: 0 auto 60px auto;
 		list-style: none;
-		display: block;
-		@include media($medium) {
-			display: list-item;
-			width: 33.333%;
-			float: left;
-		}
-		// flex-flow: column;
-		// display: flex;
-		// justify-content: flex-start;
+		flex-direction: column;
 
 		a {
 			display: block;
