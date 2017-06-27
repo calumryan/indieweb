@@ -7,9 +7,7 @@
     padding-bottom: 90px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 87.5%;
     @include media($large) {
-      //width: 980px;
       width: 70%;
     }
 

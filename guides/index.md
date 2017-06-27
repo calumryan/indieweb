@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Guides
-excerpt: "Donec viverra tellus sed tellus maximus, vel sagittis justo accumsan. Nullam blandit iaculis laoreet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse tincidunt, massa quis porta egestas, est dolor ullamcorper arcu, non fringilla nisl massa vel arcu. Nullam ut dui non justo congue aliquet."
+excerpt: "These guides firstly present and explain the process for setting up your own website. You can then progress to find out about new sharing and publishing features for your website developed within the IndieWeb community."
 search_omit: true
 ---
 
