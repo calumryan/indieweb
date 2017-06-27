@@ -394,3 +394,11 @@ span + .entry-title {
 		vertical-align: middle;
 	}
 }
+
+
+/*
+   Posts
+   ========================================================================== */
+.post-title {
+	@include font-size(40);
+}
