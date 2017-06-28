@@ -88,6 +88,6 @@ logo: true
 				<p>Introducing IndieWeb has put together a collection of guides to take you through the process of having your own website and everything else going forward.</p>
 			</div>
 		</div>
-		<a href="/guides" class="btn btn-center">Introducing the IndieWeb Guides &raquo;</a>
+		<a href="/indieweb/guides/" class="btn btn-center">Introducing the IndieWeb Guides &raquo;</a>
 	</div>
 </section>
