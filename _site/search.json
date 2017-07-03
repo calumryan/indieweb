@@ -2,14 +2,6 @@
 
   
     {
-      "title"			: "Your identity on the web",
-      "link"			: "http://localhost:4000/guides/your-identity-on-the-web/",
-      "excerpt"		: ""
-    }
-  
-
-  
-    ,{
       "title"			: "Writing and structuring content",
       "link"			: "http://localhost:4000/guides/writing-and-structure/",
       "excerpt"		: "Donec viverra tellus sed tellus maximus, vel sagittis justo accumsan"
@@ -36,7 +28,15 @@
     ,{
       "title"			: "Managing and storing your content",
       "link"			: "http://localhost:4000/guides/managing-your-content/",
-      "excerpt"		: "Donec viverra tellus sed tellus maximus, vel sagittis justo accumsan"
+      "excerpt"		: "Understand the choices for hosting your content including free and paid-for options that are ready to use of may require extra setup."
+    }
+  
+
+  
+    ,{
+      "title"			: "Your identity on the web",
+      "link"			: "http://localhost:4000/guides/your-identity-on-the-web/",
+      "excerpt"		: "Prove that other websites and social media profiles are linked to you and much more!"
     }
   
 
