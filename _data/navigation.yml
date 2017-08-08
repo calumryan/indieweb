@@ -1,7 +1,7 @@
 # Site navigation links
 
 - title: Introducing
-  url: /indieweb
+  url: https://calumryan.github.io/indieweb/
   type: nav-normal
 
 - title: Get involved
