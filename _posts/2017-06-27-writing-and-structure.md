@@ -5,10 +5,6 @@ excerpt: "Understand how to structure your content more effectively and present 
 modified: 2017-06-27T00:00:00-01:00
 categories: guides
 tags: [general]
-image:
-  feature:
-  credit:
-  creditlink:
 comments: false
 share: true
 ---

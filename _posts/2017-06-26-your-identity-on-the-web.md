@@ -5,10 +5,6 @@ excerpt: "Prove that other websites and social media profiles are linked to you 
 modified: 2017-06-26T00:00:00-04:00
 categories: guides
 tags: [general]
-image:
-  feature:
-  credit:
-  creditlink:
 comments: false
 share: true
 ---

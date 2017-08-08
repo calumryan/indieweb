@@ -5,10 +5,6 @@ excerpt: "Donec viverra tellus sed tellus maximus, vel sagittis justo accumsan"
 modified: 2017-06-27T00:00:00-02:00
 categories: guides
 tags: [general]
-image:
-  feature:
-  credit:
-  creditlink:
 comments: false
 share: true
 ---
