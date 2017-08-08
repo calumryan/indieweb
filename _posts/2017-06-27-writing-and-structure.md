@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing and structuring content
-excerpt: "Understand how to structure your content more effectively and present it in a way that search engines and other users and services on the Web interpret your content effectively."
+excerpt: "Guide in progress"
 modified: 2017-06-27T00:00:00-01:00
 categories: guides
 tags: [general]
