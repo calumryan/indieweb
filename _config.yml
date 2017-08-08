@@ -10,9 +10,6 @@ url: https://calumryan.github.io/indieweb
 
 # Jekyll configuration
 
-# The release of Jekyll Now that you're using
-version: v3.4.0
-
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: rouge
