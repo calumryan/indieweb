@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sharing your content
-excerpt: "Guide in progress"
+excerpt: "Nullam id nunc diam. Morbi tincidunt porta varius. Phasellus ornare suscipit iaculis. Nulla ac dolor id mauris finibus faucibus."
 modified: 2017-06-27T00:00:00-03:00
 categories: guides
 tags: [general]

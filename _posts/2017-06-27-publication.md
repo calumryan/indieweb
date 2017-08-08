@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Publishing your content online
-excerpt: "Guide in progress"
+excerpt: "Nullam id nunc diam. Morbi tincidunt porta varius. Phasellus ornare suscipit iaculis. Nulla ac dolor id mauris finibus faucibus."
 modified: 2017-06-27T00:00:00-02:00
 categories: guides
 tags: [general]
