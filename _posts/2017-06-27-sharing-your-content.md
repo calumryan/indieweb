@@ -16,7 +16,7 @@ At the heart of a great social media platform is the ability to share what we've
 - Bookmarks/links to other websites and individual posts
 - Fitness and sports activity
 
-## Sharing via feeds
+### Sharing via feeds
 TBC...
 
 ### Sharing via syndication to other platforms
