@@ -1,14 +1,23 @@
 ---
 layout: post
 title: Sharing your content
-excerpt: "Donec viverra tellus sed tellus maximus, vel sagittis justo accumsan"
+excerpt: "Introducing a variety of ways you can share what you publish with others"
 modified: 2017-06-27T00:00:00-03:00
 categories: guides
 tags: [general]
 comments: false
 share: true
 ---
+At the heart of a great social media platform is the ability to share what we've posted with family, friends and others.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel rhoncus sapien. Praesent finibus nisi et erat ultrices, quis tincidunt turpis elementum. Maecenas id odio molestie, lobortis urna id, aliquet ante. Praesent lorem lectus, scelerisque vel finibus ut, dignissim non elit. Etiam tristique dui posuere felis aliquam sollicitudin. Vivamus tempor velit ipsum, sed suscipit ex semper sed. Nunc sodales eu metus sit amet porttitor.
+## Typical things we like share?
+- Personal posts and events
+- Photos and other multimedia content such as videos
+- Bookmarks/links to other websites and individual posts
+- Fitness and sports activity
 
-Quisque a nisi imperdiet, cursus nulla id, hendrerit libero. Cras et felis feugiat, hendrerit neque sed, eleifend ante. Fusce blandit consequat diam, eget ultrices ipsum laoreet sed. Morbi quis lorem nec nibh pulvinar varius id mattis lorem. Vivamus ac commodo quam, et commodo felis. Etiam placerat imperdiet urna, at ullamcorper sem porta eget. Mauris vel ligula commodo, vehicula arcu ut, efficitur magna.
+## Sharing via feeds
+TBC...
+
+### Sharing via syndication to other platforms
+TBC...
