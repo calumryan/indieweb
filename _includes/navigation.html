@@ -14,7 +14,7 @@
 		        {% else %}
 		        {% assign domain = site.url %}
 		    {% endif %}
-		    <li class="{{ link.type }}"><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}><span>{{ link.title }}</span></a></li>
+		    <li class="{{ link.type }}"><a href="{{ domain }}{{ link.url }}"><span>{{ link.title }}</span></a></li>
 		  {% endfor %}
 	    </ul>
 	</nav>
