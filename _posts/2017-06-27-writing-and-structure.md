@@ -9,7 +9,7 @@ comments: false
 share: true
 ---
 
-The range and depth of content we publish on the Web is ever increasing but with this comes an immense task to interpret, categorise and present it all and an organised, digestable form that can be universally understood by other humans and computers.
+The range and depth of content we publish on the Web is ever increasing but with this comes an immense task to interpret, categorise and present it all and an organised, digestible form that can be universally understood by other humans and computers.
 
 An term frequently spoken about in the IndieWeb community is Microformats. Simply put this is a collective term for a range of formats used in code to structure the content you publish in a way that can be easily interpreted by other computers, search engines and data dependent systems.
 

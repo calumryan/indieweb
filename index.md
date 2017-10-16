@@ -39,9 +39,6 @@ logo: true
 				<h2>But I don’t want to cancel my social media account, it’s where all my friends are?</h2>
 			</div>
 			<div class="column medium-6 small-12">
-				<p>The IndieWeb movement isn’t against using social networks. It draws inspiration from innovations that some of the most popular social media websites out there bring to the web.</p>
-			</div>
-			<div class="column small-12">
 				<p>The IndieWeb community collectively helps develop bridging technologies so that you can post content from your own website that can be simultaneously get syndicated out to some or all of your favourite social media services. The result: you don’t need to worry anyone’s missing out on what you post regardless of which social media website they use!</p>
 			</div>
 		</div>

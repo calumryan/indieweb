@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sharing your content
-excerpt: "Introducing a variety of ways you can share what you publish with others"
+excerpt: "Introducing a variety of ways you can share what you publish with others."
 modified: 2017-06-27T00:00:00-03:00
 categories: guides
 tags: [general]
