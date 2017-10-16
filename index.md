@@ -39,7 +39,7 @@ logo: true
 				<h2>But I don’t want to cancel my social media account, it’s where all my friends are?</h2>
 			</div>
 			<div class="column medium-6 small-12">
-				<p>The IndieWeb community collectively helps develop bridging technologies so that you can post content from your own website that can be simultaneously get syndicated out to some or all of your favourite social media services. The result: you don’t need to worry anyone’s missing out on what you post regardless of which social media website they use!</p>
+				<p>The IndieWeb community has worked on technologies such as <a href="https://brid.gy/">Bridgy</a> to support syndicating a copy of what you publish on your own site first to other places including places like Facebook and Twitter. The result: you don’t need to worry anyone’s missing out on what you post regardless of which social media website they use!</p>
 			</div>
 		</div>
 	</div>
