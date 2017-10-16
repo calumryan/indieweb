@@ -96,7 +96,7 @@
 
   &:before, &:after {
       content: ' ';
-      display: table
+      display: block;
   }
 
   &:after {
