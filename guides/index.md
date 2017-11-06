@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: az
 title: Guides
 excerpt: "These guides firstly present and explain the process for setting up your own website. You can then progress to find out about new sharing and publishing features for your website developed within the IndieWeb community."
 search_omit: true

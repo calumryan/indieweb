@@ -20,18 +20,12 @@
         <p class="p-summary">{{ page.excerpt }}</p>
       </header>
 
-      <article class="post-content" itemprop="articleBody">
-        {{ content }}
-      </article>
-
-      <nav class="pagination" role="navigation">
-        {% if page.previous %}
-          <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous</a>
-        {% endif %}
-        {% if page.next %}
-          <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next</a>
-        {% endif %}
-      </nav><!-- /.pagination -->
+      <section class="pane-browser" data-state="subsection" aria-busy="false">
+        <article class="post-content" itemprop="articleBody">
+          {{ content }}
+        </article>
+        {% include az-list.html %}
+      </section>
 
     </div><!-- /.post -->
 

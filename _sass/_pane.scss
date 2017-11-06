@@ -1,0 +1,91 @@
+.pane {
+  display: none;
+  @include media($medium) {
+    float: right;
+    width: 25%;
+    min-height: 20px;
+    display: block;
+    display: flex;
+    flex: 1 0 25%;
+    flex-direction: column;
+    order: 1;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0 30px 0 0;
+    li {
+      list-style: none;
+      @include font-size(18,no);
+
+      a {
+        padding: 12px 30px 8px 10px;
+        display: block;
+        position: relative;
+        z-index: 1;
+
+        &:hover {
+          background: #dee0e2;
+          color: #005ea5;
+        }
+
+        &:active {
+          color: #2b8cc4;
+        }
+
+        &:visited {
+          color: #4c2c92;
+        }
+
+        &:focus {
+          background-color: #FFB100;
+          outline: 3px solid #FFB100;
+        }
+
+        &:after {
+          position: absolute;
+          top: 50%;
+          margin-top: -8px;
+          right: 10px;
+          float: right;
+          content: "\203A";
+        }
+      }
+    }
+  }
+
+  &-browser {
+    @include media($medium) {
+      padding-bottom: 30px;
+      position: relative;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+    }
+
+    article.post-content {
+      @include media($medium) {
+        float: right;
+        width: 75%;
+        display: flex;
+        flex: 1 0 75%;
+        flex-direction: column;
+        order: 2;
+        position: relative;
+        z-index: 1;
+
+        &:before {
+          content: "";
+          border-left: 1px solid #CCC;
+          height: 100%;
+          position: absolute;
+          top: 0px;
+          left: -30px;
+        }
+      }
+    }
+
+  }
+
+
+}

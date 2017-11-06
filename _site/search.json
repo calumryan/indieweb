@@ -12,7 +12,7 @@
     ,{
       "title"			: "Sharing your content",
       "link"			: "http://localhost:4000/guides/sharing-your-content/",
-      "excerpt"		: "Introducing a variety of ways you can share what you publish with others"
+      "excerpt"		: "Introducing a variety of ways you can share what you publish with others."
     }
   
 
@@ -20,7 +20,7 @@
     ,{
       "title"			: "Publishing your content online",
       "link"			: "http://localhost:4000/guides/publication/",
-      "excerpt"		: "Donec viverra tellus sed tellus maximus, vel sagittis justo accumsan"
+      "excerpt"		: "Learn how to publish and edit your content on the web."
     }
   
 
@@ -47,13 +47,13 @@
   
 
   
-
-  
     ,{
       "title"			: "Search",
       "link"			: "http://localhost:4000/search/",
       "excerpt"		: ""
     }
+  
+
   
 
   
