@@ -10,6 +10,7 @@ logo: true
 	<div class="wrap">
 			<div class="masthead__tagline">Introducing the IndieWeb</div>
 			<p class="masthead__excerpt">{{ site.description }}</p>
+			<a href="/indieweb/guides/" class="btn btn-center">Skip to Guides &raquo;</a>
 	</div>
 </header><!-- /.masthead -->
 
