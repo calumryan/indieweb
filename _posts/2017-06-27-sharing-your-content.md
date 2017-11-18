@@ -7,6 +7,7 @@ categories: guides
 tags: [general]
 comments: false
 share: true
+identifier: sharing_your_content
 ---
 At the heart of a great social media platform is the ability to share what we've posted with family, friends and others.
 

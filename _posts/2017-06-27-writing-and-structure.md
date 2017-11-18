@@ -7,6 +7,7 @@ categories: guides
 tags: [general]
 comments: false
 share: true
+identifier: writing_and_structuring_content
 ---
 
 The range and depth of content we publish on the Web is ever increasing but with this comes an immense task to interpret, categorise and present it all and an organised, digestible form that can be universally understood by other humans and computers.

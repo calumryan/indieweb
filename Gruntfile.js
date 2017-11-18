@@ -57,7 +57,7 @@ module.exports = function(grunt) {
     },
     clean: {
       dist: [
-        'assets/js/scripts.min.js'
+        'assets/js/_script.min.js'
       ]
     }
   });

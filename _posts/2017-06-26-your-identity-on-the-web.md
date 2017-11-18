@@ -7,6 +7,7 @@ categories: guides
 tags: [general]
 comments: false
 share: true
+identifier: your_identity_on_the_web
 ---
 
 Once you've set up and feel comfortable with managing your own content then we encourage you to identify what existing identities relate to you on the web such as on Facebook, Twitter and Google. There's a small piece of code that goes into any links on your website to make this work. Depending on your website's setup there are a few you ways you can do this.

@@ -7,6 +7,7 @@ categories: guides
 tags: [general]
 comments: false
 share: true
+identifier: managing_and_storing_your_content
 ---
 
 In this we'll guide you through the principle considerations in deciding where to store (host) your personal website. Various levels of web hosting services are available so, depending on what kind of content you're publishing, there may be more cost effective options to consider.
