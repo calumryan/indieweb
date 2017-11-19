@@ -2,6 +2,14 @@
    Search
    ========================================================================== */
 
+.search-with-js {
+  display: none;
+
+  .js & {
+    display: block;
+  }
+}
+
 .search-wrapper {
   @include outer-container;
   margin-top: 0;

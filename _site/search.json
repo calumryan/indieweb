@@ -2,9 +2,33 @@
 
   
     {
-      "title"			: "Sample article 1",
-      "link"			: "http://localhost:4000/your-identity/sample-article-1/",
-      "excerpt"		: "A sample of article desc"
+      "title"			: "Your identity on the web",
+      "link"			: "http://localhost:4000/guides/your-identity-on-the-web/",
+      "excerpt"		: "Prove that other websites and social media profiles are linked to you and much more!"
+    }
+  
+
+  
+    ,{
+      "title"			: "Wordpress",
+      "link"			: "http://localhost:4000/guides/wordpress/",
+      "excerpt"		: "Wordpress stuff.."
+    }
+  
+
+  
+    ,{
+      "title"			: "rel=me",
+      "link"			: "http://localhost:4000/guides/relme/",
+      "excerpt"		: "rel=me stuff…"
+    }
+  
+
+  
+    ,{
+      "title"			: "CMS",
+      "link"			: "http://localhost:4000/guides/cms/",
+      "excerpt"		: "CMS stuff.."
     }
   
 
@@ -40,14 +64,6 @@
     }
   
 
-  
-    ,{
-      "title"			: "Your identity on the web",
-      "link"			: "http://localhost:4000/guides/your-identity-on-the-web/",
-      "excerpt"		: "Prove that other websites and social media profiles are linked to you and much more!"
-    }
-  
-
 
 
   
@@ -70,6 +86,70 @@
 
   
 
+  
+
+  
+    ,{
+      "title"			: "Managing your content",
+      "link"			: "http://localhost:4000/guides/managing-your-content/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Index",
+      "link"			: "http://localhost:4000/guides/index/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Publication",
+      "link"			: "http://localhost:4000/guides/publication/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Sharing your content",
+      "link"			: "http://localhost:4000/guides/sharing-your-content/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Writing and structure",
+      "link"			: "http://localhost:4000/guides/writing-and-structure/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Sub",
+      "link"			: "http://localhost:4000/guides/sub/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "CMS",
+      "link"			: "http://localhost:4000/guides/cms/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Your identity on the web",
+      "link"			: "http://localhost:4000/guides/your-identity-on-the-web/",
+      "excerpt"		: ""
+    }
   
 
   

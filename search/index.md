@@ -10,6 +10,8 @@ search_omit: false
 logo: false
 ---
 
+<section class="search-with-js">
+
 <!-- Search form -->
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
   <label for="q">Search {{ site.title }} for:</label>
@@ -29,3 +31,7 @@ logo: false
     <a href="##Url##">##Title## <span class="excerpt">##Excerpt##</span></a>
   </article></li>
 </script>
+
+</section>
+
+<noscript><p>Search requires JavaScript to be enabled.</p></noscript>

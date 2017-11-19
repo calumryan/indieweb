@@ -11,7 +11,10 @@
   <section id="main" role="main">
 
     <div class="post h-entry post-entry section-content" itemscope itemtype="http://schema.org/BlogPosting">
-
+      
+      {% if page.tags contains "Index" %}
+      {% elsif page.tags contains "Sub" %}
+      {% else %}
       <header class="post-header">
         <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
         <!-- <p class="post-meta">
@@ -19,12 +22,37 @@
         </p> -->
         <p class="p-summary">{{ page.excerpt }}</p>
       </header>
+      {% endif %}
 
-      <section class="pane-browser" data-state="subsection" aria-busy="false">
+      {% assign layout=1 %}
+      
+      {% if page.tags contains "Index" %}
+      {% assign layout=2 %}
+      {% elsif page.tags contains "Sub" %}
+      {% assign layout=3 %}
+      {% endif %}
+
+      <section class="pane-browser pane-{{ layout }}" data-state="subsection" aria-busy="false">
+
+        {% if page.tags contains "Index" %}
+
+        {% include az-list-layer1.html %}
+        {% include az-list.html %}
+
+        {% elsif page.tags contains "Sub" %}
+
+        {% include az-list-layer2.html %}
+        {% include az-list-layer1.html %}
+        {% include az-list.html %}
+
+        {% else %}
         <article class="post-content" itemprop="articleBody">
           {{ content }}
         </article>
-        {% include az-list.html %}
+        {% endif %}
+
+
+        
       </section>
 
     </div><!-- /.post -->

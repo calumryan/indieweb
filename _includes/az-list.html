@@ -1,8 +1,10 @@
-<div id="root" class="pane">
+<div id="root" class="pane pane-root">
   <h1 class="visuallyhidden" tabindex="-1">All categories</h1>
   <ul>
     {% for post in site.categories.guides %}
-      <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }} </a></li>
+    {% if post.tags contains "Index" %}
+      <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
     {% endfor %}
   </ul>
 </div>

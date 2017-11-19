@@ -22,11 +22,11 @@ js_menu_1.onclick = function(event) {
   toggleMenu();
 };
 
-const tab = document.querySelectorAll('a.js-post-layer-1');
+// const tab = document.querySelectorAll('a.js-post-layer-1');
 
-Array.from(tab).forEach(link => {
-  link.addEventListener('click', function(event) {
-    event.preventDefault();
-    console.log(this.dataset('target'));
-  });
-});
+// Array.from(tab).forEach(link => {
+//   link.addEventListener('click', function(event) {
+//     event.preventDefault();
+//     console.log(this.dataset('target'));
+//   });
+// });

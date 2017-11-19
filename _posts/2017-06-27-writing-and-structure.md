@@ -4,10 +4,11 @@ title: Writing and structuring content
 excerpt: "Understand how to structure your content more effectively and present it in a way that search engines and other users and services on the Web interpret your content effectively."
 modified: 2017-06-27T00:00:00-01:00
 categories: guides
-tags: [general]
+tags: [Writing and structure,Index]
+primary_tag: Writing and structure
 comments: false
 share: true
-identifier: writing_and_structuring_content
+identifier: writing_and_structure
 ---
 
 The range and depth of content we publish on the Web is ever increasing but with this comes an immense task to interpret, categorise and present it all and an organised, digestible form that can be universally understood by other humans and computers.

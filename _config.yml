@@ -20,7 +20,8 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-
+  - jekyll-archives
+  
 kramdown:
   input: GFM
   auto_ids: true
@@ -58,3 +59,9 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+
+# Jekyll Archives
+jekyll-archives:
+  enabled: [tags]
+  permalinks:
+    tag: '/guides/:name/'

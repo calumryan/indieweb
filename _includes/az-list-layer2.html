@@ -1,10 +1,10 @@
-<div id="section" class="section-pane pane pane-primary with-sort">
+<div id="subsection" class="subsection-pane pane with-sort with-sort pane-nested">
   <div class="pane-inner curated">
     {% assign counter=0 %}
     {% for post in site.categories.guides %}
     {% if counter == 1 %}
-    {% elsif post.tags contains page.primary_tag %}
-    <h2 tabindex="-1">{{ post.primary_tag }}</h2>
+    {% elsif post.tags contains page.secondary_tag %}
+    <h2 tabindex="-1">{{ post.secondary_tag }}</h2>
     <p class="sort-order">A to Z</p>
     {% assign counter=counter | plus:1 %}
     {% endif %}
@@ -13,7 +13,8 @@
     <ul>
     {% for post in site.categories.guides %}
     {% if post.tags contains "Index" %}
-    {% elsif post.tags contains page.primary_tag %}
+    {% elsif post.tags contains "Sub" %}
+    {% elsif post.tags contains page.secondary_tag %}
       <li><a class="js-post-layer-1" href="{{ site.url }}{{ post.url }}" data-target="{{ post.identifier }}">{{ post.title }}<div class="pane-excerpt">{{post.excerpt}}</div></a></li>
     {% endif %}
     {% endfor %}
