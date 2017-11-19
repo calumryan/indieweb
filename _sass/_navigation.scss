@@ -52,6 +52,8 @@
       height: auto;
       @include media($medium) {
         width: 150px;
+        /* IE */
+        height: 56px !important;
       }
     }
   }
