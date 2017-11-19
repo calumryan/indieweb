@@ -42,7 +42,10 @@ body {
   //border-top: 5px solid $white;
 }
 
-
+#main {
+	position: relative;
+	z-index: 1;
+}
 
 /*
    Typography
