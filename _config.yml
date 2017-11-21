@@ -65,3 +65,7 @@ jekyll-archives:
   enabled: [tags]
   permalinks:
     tag: '/guides/:name/'
+
+# Escape curly brackets
+lcb: "{"
+rcb: "}"

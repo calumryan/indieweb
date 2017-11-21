@@ -3,7 +3,7 @@ layout: post
 title: Publishing your content online
 excerpt: "Learn how to publish and edit your content on the web."
 modified: 2017-06-27T00:00:00-02:00
-categories: guides
+categories: browse
 tags: [Publication,Index]
 primary_tag: Publication
 comments: false

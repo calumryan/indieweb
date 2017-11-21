@@ -76,6 +76,17 @@
           content: "\203A";
         }
       }
+
+      &.active {
+        a {
+          color: #dee0e2;
+          background-color: #005ea5;
+
+          .pane-excerpt {
+            color:#FFF;
+          }
+        }
+      }
     }
   }
 
