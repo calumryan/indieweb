@@ -55,7 +55,7 @@
         }
 
         &:active {
-          color: #2b8cc4;
+          color: $pane-active-bg;
         }
 
         &:visited {
@@ -65,6 +65,11 @@
         &:focus {
           background-color: #FFB100;
           outline: 3px solid #FFB100;
+          color: #000;
+
+          .pane-excerpt {
+            color: #000;
+          }
         }
 
         &:after {
@@ -79,8 +84,8 @@
 
       &.active {
         a {
-          color: #dee0e2;
-          background-color: #005ea5;
+          color: #FFF;
+          background-color: $pane-active-bg;
 
           .pane-excerpt {
             color:#FFF;
@@ -170,6 +175,22 @@
     @include media($medium) {
       display: flex;
     }
+
+    .pane-3 & {
+      ul {
+        li {
+          a {
+            color: $pane-greyed-color;
+          }
+
+          &.active {
+            a {
+              color: #FFF;
+            }
+          }
+        }
+      }
+    }
   }
 
   &-nested {
@@ -215,6 +236,31 @@
         }
       }
  
+      ul {
+        li {
+          a {
+            color: $pane-greyed-color;
+
+            .pane-excerpt {
+              color:$pane-greyed-color;
+            }
+
+          }
+
+          &.active {
+            a {
+              color: #FFF;
+
+              .pane-excerpt {
+                color:#FFF;
+              }
+
+            }
+          }
+        }
+      }
+
+
     }
 
   }

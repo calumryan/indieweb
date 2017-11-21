@@ -64,7 +64,7 @@ owner:
 jekyll-archives:
   enabled: [tags]
   permalinks:
-    tag: '/guides/:name/'
+    tag: '/browse/:name/'
 
 # Escape curly brackets
 lcb: "{"

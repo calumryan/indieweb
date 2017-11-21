@@ -43,6 +43,8 @@ $table-hover-color        : darken($table-background, 2);
 $table-stripe-color       : darken($table-background, 4);
 $table-stripe-color-hover : darken($table-stripe-color, 5);
 
+$pane-greyed-color        : #666;
+$pane-active-bg           : #2b8cc4;
 
 // MEDIA QUERIES ==============================================
 $micro                    : "only screen and (min-width: 30em)";
