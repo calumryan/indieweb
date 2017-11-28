@@ -18,9 +18,17 @@
 
   
     ,{
-      "title"			: "rel=me",
+      "title"			: "RelMe",
       "link"			: "http://localhost:4000/browse/relme/",
-      "excerpt"		: "rel=me stuff…"
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "IndieAuth",
+      "link"			: "http://localhost:4000/browse/indieauth/",
+      "excerpt"		: ""
     }
   
 
@@ -35,7 +43,7 @@
   
     ,{
       "title"			: "GoDaddy",
-      "link"			: "http://localhost:4000/browse/godaddy/",
+      "link"			: "http://localhost:4000/browse/hosting-godaddy/",
       "excerpt"		: "GoDaddy stuff.."
     }
   
@@ -81,6 +89,8 @@
   
 
 
+
+  
 
   
 

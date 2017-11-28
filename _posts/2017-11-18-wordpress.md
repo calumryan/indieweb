@@ -2,7 +2,6 @@
 layout: post
 title: Wordpress
 excerpt: "Wordpress stuff.."
-modified: 2017-11-18T00:00:00-04:00
 categories: browse
 tags: [CMS]
 primary_tag: CMS

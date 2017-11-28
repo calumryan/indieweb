@@ -49,6 +49,24 @@
         <article class="post-content" itemprop="articleBody" role="main">
           {{ content }}
         </article>
+
+
+          <aside class="post-aside">
+            <div>
+              <h2>Further reading</h2>
+              <ul>
+              {% for post in site.categories.browse %}
+              {% if post.tags contains "Index" %}
+              {% elsif page.url == post.url %}
+              {% elsif post.tags contains page.primary_tag %}
+                <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+              {% endif %}
+              {% endfor %}
+              </ul>
+            </div>
+          </aside>
+
+          
         {% endif %}
 
 
@@ -68,6 +86,5 @@
   </div><!-- /.footer-wrapper -->
 
   {% include scripts.html %}
-
 </body>
 </html>

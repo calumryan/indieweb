@@ -2,7 +2,6 @@
 layout: post
 title: Sharing your content
 excerpt: "Introducing a variety of ways you can share what you publish with others."
-modified: 2017-06-27T00:00:00-03:00
 categories: browse
 tags: [Sharing your content,Index]
 primary_tag: Sharing your content

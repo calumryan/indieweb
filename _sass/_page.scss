@@ -410,3 +410,47 @@ span + .entry-title {
 .post-title {
 	@include font-size(40);
 }
+
+.post-content {
+	@include media($medium) {
+		flex: 1 0 66.666%;
+		max-width: 66.666%;
+		min-width: 66.666%;
+		flex-direction: column;
+	}
+}
+
+.post-aside {
+
+	h2 {
+		border-top: 5px solid #005ea5;
+		padding-top: 10px;
+	}
+
+	ul {
+		padding: 0;
+	}
+
+	li {
+		list-style: none;
+
+		a {
+			text-decoration: underline;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	@include media($medium) {
+		flex: 1 0 33.333%;
+		max-width: 33.333%;
+		min-width: 33.333%;
+		flex-direction: column;
+
+		> div {
+			padding-left: 30px;
+		}
+	}	
+}
