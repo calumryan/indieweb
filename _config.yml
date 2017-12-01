@@ -6,7 +6,7 @@ locale: en_GB
 description: Clear, simple guides to taking greater control of your data on the Web
 logo: logo.svg
 search: true
-url: https://calumryan.github.io/indieweb
+url: //indiewebguides.org
 
 # Jekyll configuration
 
