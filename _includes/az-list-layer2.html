@@ -11,7 +11,10 @@
     {% endfor %}
 
     <ul role="navigation">
-    {% for post in site.categories.browse %}
+    
+    {% assign items = site.categories.browse  | sort: 'title' %}
+    
+    {% for post in items %}
     {% if post.tags contains "Index" %}
     {% elsif post.tags contains "Sub" %}
     {% elsif post.tags contains page.secondary_tag %}

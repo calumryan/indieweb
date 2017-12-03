@@ -3,11 +3,12 @@ layout: post
 title: IndieAuth
 excerpt: ""
 categories: browse
-tags: [Your identity on the web]
-primary_tag: Your identity on the web
+tags: [Sign in]
+primary_tag: Sign in
+secondary_tag: Sign in
 comments: false
 share: true
-identifier: rel_me
+identifier: indieauth
 
 ---
 ## 1. Overview

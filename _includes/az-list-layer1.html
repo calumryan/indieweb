@@ -11,10 +11,10 @@
     {% endfor %}
 
     <ul role="navigation">
-    {% for post in site.categories.browse %}
+    {% assign items = site.categories.browse  | sort: 'title' %}
+    {% for post in items %}
     {% if post.tags contains "Index" %}
     {% elsif post.tags contains page.primary_tag %}
-      {{ node.url }}
       <li {% if page.url == post.url %}class="active"{% endif %}><a class="js-post-layer js-post-layer-1" href="{{ site.url }}{{ post.url }}" data-pane="{{ post.url }}" data-target="{{ post.identifier }}" option='{{ site.lcb }}"{{ post.title }}"{{ site.rcb }}'>{{ post.title }}<div class="pane-excerpt">{{post.excerpt}}</div></a></li>
     {% endif %}
     {% endfor %}
