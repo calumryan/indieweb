@@ -8,7 +8,7 @@ primary_tag: Sign in
 secondary_tag: Sign in
 comments: false
 share: true
-identifier: indieauth
+identifier: signin
 
 ---
 ## 1. Overview

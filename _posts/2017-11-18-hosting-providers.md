@@ -8,7 +8,7 @@ primary_tag: Publication
 secondary_tag: Hosting providers
 comments: false
 share: true
-identifier: hosting_providers
+identifier: hosting-providers
 
 ---
 

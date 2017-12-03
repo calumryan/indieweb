@@ -8,6 +8,54 @@
 
 {% include navigation.html %}
 
+  <div class="breadcrumbs">
+    <ol>
+      <!--<li><a href="{{ site.url }}">Home</a></li>-->
+      <li><a href="{{ site.url }}/guides/">Guides</a></li>
+      
+      {% if page.tags contains "Index" %}
+
+      {% elsif page.tags contains "Sub" %}
+
+          {% assign counter=0 %}
+          {% for post in site.categories.browse %}
+          {% if counter == 1 %}
+          {% elsif post.tags contains page.primary_tag %}
+          <li><a href="{{ site.url }}/browse/{{ page.identifier }}">{{ post.primary_tag }}</a></li>
+          {% assign counter=counter | plus:1 %}
+          {% endif %}
+          {% endfor %}
+
+      {% else %}
+
+          {% assign counter=0 %}
+          {% for post in site.categories.browse %}
+          {% if counter == 1 %}
+          {% elsif post.tags contains page.primary_tag %}
+          <li><a href="{{ site.url }}/browse/{{ post.identifier }}">{{ post.primary_tag }}</a></li>
+          {% assign counter=counter | plus:1 %}
+          {% endif %}
+          {% endfor %}
+
+          {% assign counter=0 %}
+          {% for post in site.categories.browse %}
+          {% if counter == 1 %}
+          {% elsif post.tags contains page.secondary_tag %}
+          <li><a href="{{ site.url }}/browse/{{ page.identifier }}">{{ post.secondary_tag }}</a></li>
+          {% assign counter=counter | plus:1 %}
+          {% endif %}
+          {% endfor %}
+
+      {% endif %}
+
+
+
+
+
+
+    </ol>
+  </div>
+
   <section id="main" role="main">
 
     <div class="post h-entry post-entry section-content" itemscope itemtype="http://schema.org/BlogPosting">
@@ -53,7 +101,7 @@
 
           <aside class="post-aside">
             <div>
-              <h2>Further reading</h2>
+              <h2>Also in this section</h2>
               <ul>
               {% for post in site.categories.browse %}
               {% if post.tags contains "Index" %}

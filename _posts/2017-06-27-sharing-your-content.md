@@ -7,7 +7,8 @@ tags: [Sharing your content,Index]
 primary_tag: Sharing your content
 comments: false
 share: true
-identifier: sharing_your_content
+identifier: sharing-your-content
+modified: 2017-02-20T19:00:00-04:00
 ---
 At the heart of a great social media platform is the ability to share what we've posted with family, friends and others.
 

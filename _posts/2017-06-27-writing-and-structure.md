@@ -7,7 +7,8 @@ tags: [Writing and structure,Index]
 primary_tag: Writing and structure
 comments: false
 share: true
-identifier: writing_and_structure
+identifier: writing-and-structure
+modified: 2017-02-20T19:00:00-04:00
 ---
 
 The range and depth of content we publish on the Web is ever increasing but with this comes an immense task to interpret, categorise and present it all and an organised, digestible form that can be universally understood by other humans and computers.

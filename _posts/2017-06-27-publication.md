@@ -8,6 +8,7 @@ primary_tag: Publication
 comments: false
 share: true
 identifier: publication
+modified: 2017-02-20T19:00:00-04:00
 ---
 
 In this guide you'll learn about what off-the-shelf and ready to use tools and platforms you can use to publish and manage the content on your website. Whether or you've already something setup, we'll hopefully introduce you to some smarter, better ways to manage your website's content so that it's more secure and easier to recover earlier edits.
