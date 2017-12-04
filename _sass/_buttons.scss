@@ -11,9 +11,9 @@
   margin-bottom: 20px;
   padding: 8px 20px;
   @include font-size(20);
-  background-color: $indieweb;
+  background-color: $link-color;
   color: $white;
-  border: 2px solid $indieweb !important;
+  border: 2px solid $link-color !important;
   border-radius: $border-radius;
   font-weight: 600;
 
@@ -23,7 +23,7 @@
 
   &:hover {
     background-color: $white;
-    color: $indieweb;
+    color: $link-color;
   }
 
   &-center {
