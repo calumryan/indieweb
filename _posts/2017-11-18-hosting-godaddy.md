@@ -8,7 +8,7 @@ primary_tag: Hosting providers
 secondary_tag: Hosting providers
 comments: false
 share: true
-identifier: wordpress
+identifier: hosting_providers
 
 ---
 
