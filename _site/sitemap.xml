@@ -29,14 +29,6 @@
 <lastmod>2017-11-18T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/browse/hosting-godaddy/</loc>
-<lastmod>2017-11-18T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/browse/hosting-providers/</loc>
-<lastmod>2017-11-18T00:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/browse/indieauth/</loc>
 <lastmod>2017-11-18T00:00:00+00:00</lastmod>
 </url>
@@ -54,10 +46,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/browse/why-get-a-personal-domain/</loc>
-<lastmod>2017-11-18T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/browse/wordpress/</loc>
 <lastmod>2017-11-18T00:00:00+00:00</lastmod>
 </url>
 <url>
@@ -99,9 +87,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/browse/owning-your-domain/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/browse/hosting-providers/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/browse/sign-in/</loc>

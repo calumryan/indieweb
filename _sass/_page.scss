@@ -418,6 +418,12 @@ span + .entry-title {
 		min-width: 66.666%;
 		flex-direction: column;
 	}
+
+	p, li {
+		> code {
+			background-color: #e2e2e2;
+		}
+	}
 }
 
 .post-aside {

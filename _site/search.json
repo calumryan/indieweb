@@ -10,14 +10,6 @@
 
   
     ,{
-      "title"			: "Wordpress",
-      "link"			: "http://localhost:4000/browse/wordpress/",
-      "excerpt"		: "Wordpress stuff.."
-    }
-  
-
-  
-    ,{
       "title"			: "Why get a personal domain?",
       "link"			: "http://localhost:4000/browse/why-get-a-personal-domain/",
       "excerpt"		: ""
@@ -53,22 +45,6 @@
       "title"			: "IndieAuth",
       "link"			: "http://localhost:4000/browse/indieauth/",
       "excerpt"		: ""
-    }
-  
-
-  
-    ,{
-      "title"			: "Hosting providers",
-      "link"			: "http://localhost:4000/browse/hosting-providers/",
-      "excerpt"		: "Hosting providers stuff.."
-    }
-  
-
-  
-    ,{
-      "title"			: "GoDaddy",
-      "link"			: "http://localhost:4000/browse/hosting-godaddy/",
-      "excerpt"		: "GoDaddy stuff.."
     }
   
 
@@ -224,14 +200,6 @@
     ,{
       "title"			: "Owning your domain",
       "link"			: "http://localhost:4000/browse/owning-your-domain/",
-      "excerpt"		: ""
-    }
-  
-
-  
-    ,{
-      "title"			: "Hosting providers",
-      "link"			: "http://localhost:4000/browse/hosting-providers/",
       "excerpt"		: ""
     }
   
