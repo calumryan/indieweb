@@ -419,11 +419,18 @@ span + .entry-title {
 		flex-direction: column;
 	}
 
+	> ul, > ol {
+		padding-left: 20px;
+	}
+
 	p, li {
 		> code {
 			background-color: #e2e2e2;
 		}
 	}
+
+
+
 }
 
 .post-aside {

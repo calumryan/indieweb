@@ -8,7 +8,7 @@ primary_tag: Your identity on the web
 secondary_tag: Owning your domain
 comments: false
 share: true
-identifier: personal-domain
+identifier: owning-your-domain
 ---
 ## 1. Overview
 Having a personal domain is one of the first steps in owning and controlling your identity on the Web to uniquely identifying who you are. Sharing and remembering your personal domain should be alot easier than a list of social media profiles which you can’t guarantee will last or be accessible to everyone now or in the future. 
