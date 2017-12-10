@@ -29,17 +29,9 @@ html, body {
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  font-family: $base-font;
-  color: $text-color;
-  background-color: #FFF;
-	padding-top: 50px;
 	@include media($medium) {
 		padding-top: 76px;
 	}
-  //border-top: 5px solid $white;
 }
 
 #main {

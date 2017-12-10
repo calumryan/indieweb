@@ -1,6 +1,6 @@
 {
     "name": "Introducing the IndieWeb",
-    "short_name": "Introducing the IndieWeb",
+    "short_name": "intro_indieweb",
     "icons": [
         {
             "src": "/images/favicons/android-chrome-192x192.png",

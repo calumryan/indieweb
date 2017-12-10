@@ -8,7 +8,7 @@ logo: true
 
 <header class="masthead masthead__big">
 	<div class="wrap">
-			<div class="masthead__tagline">Introducing the IndieWeb</div>
+			<h1 class="masthead__tagline">Introducing the IndieWeb</h1>
 			<p class="masthead__excerpt">{{ site.description }}</p>
 			<a href="{{site.url}}/guides/" class="btn btn-center">Skip to Guides &raquo;</a>
 	</div>
