@@ -64,10 +64,7 @@
       {% elsif page.tags contains "Sub" %}
       {% else %}
       <header class="post-header">
-        <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-        <!-- <p class="post-meta">
-          <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-        </p> -->
+        <h1 class="post-title p-name" itemprop="name">{{ page.title }}</h1>
         <p class="p-summary">{{ page.excerpt }}</p>
       </header>
       {% endif %}
@@ -80,7 +77,7 @@
       {% assign layout=3 %}
       {% endif %}
 
-      <section class="pane-browser pane-{{ layout }}" data-state="subsection" aria-busy="false">
+      <section class="pane-browser pane-{{ layout }} e-content" data-state="subsection" aria-busy="false">
 
         {% if page.tags contains "Index" %}
 
@@ -94,7 +91,7 @@
         {% include az-list.html %}
 
         {% else %}
-        <article class="post-content" itemprop="articleBody" role="main">
+        <article class="post-content e-content" itemprop="articleBody" role="main">
           {{ content }}
         </article>
 
