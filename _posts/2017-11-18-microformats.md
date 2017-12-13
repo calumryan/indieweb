@@ -11,7 +11,7 @@ share: true
 identifier: formats
 ---
 ## 1. Overview
-Microformats form a significant form an important to existing HTML marki[. They can help define what tags and class names to apply to certain kinds of content like an article's title, summary and main body of content.
+Microformats are a type of HTML markup that both machines and users can identify through naming conventions that are standardised and widely recognised in open data formats.
 
 ### Why use Microformats?
 Using Microformats is primarily useful for search engines and content agregators so that they can more effectively interpret the type of content your publishing. This is beneficial to you and your audience in many ways, not just ranking, but also offering new ways for search engines to present the results from your website. 
