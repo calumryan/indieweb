@@ -81,6 +81,12 @@
     float: none;
     @include font-size(18, no, 20);
   }
+
+  &-after {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+  }
 }
 
 /*

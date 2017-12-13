@@ -13,3 +13,5 @@ type: Index
 {% endif %}
 {% endfor %}
 </ul>
+
+<p class="post-list-after">Would you like to write or add to a guide?<br> <a href="/contribute/">Contribute</a>!</p>
