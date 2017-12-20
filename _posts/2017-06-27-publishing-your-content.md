@@ -3,11 +3,11 @@ layout: post
 title: Publishing your content online
 excerpt: "Learn how to publish and edit your content on the web."
 categories: browse
-tags: [Publication,Index]
-primary_tag: Publication
+tags: [Publishing your content,Index]
+primary_tag: Publishing your content
 comments: false
 share: true
-identifier: publication
+identifier: publishing-your-content
 modified: 2017-02-20T19:00:00-04:00
 ---
 

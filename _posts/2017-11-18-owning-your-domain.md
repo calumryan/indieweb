@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Own your domain
+title: Owning your domain
 excerpt: "Why having a personal domain matters and what's involved getting one."
 categories: browse
 tags: [Your identity on the web,Sub,Owning your domain]

@@ -9,7 +9,7 @@
 <lastmod>2017-06-27T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/browse/publication/</loc>
+<loc>http://localhost:4000/browse/publishing-your-content/</loc>
 <lastmod>2017-06-27T00:00:00+01:00</lastmod>
 </url>
 <url>
@@ -22,6 +22,14 @@
 </url>
 <url>
 <loc>http://localhost:4000/browse/accessibility/</loc>
+<lastmod>2017-11-18T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/browse/cms/</loc>
+<lastmod>2017-11-18T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/browse/drupal/</loc>
 <lastmod>2017-11-18T00:00:00+00:00</lastmod>
 </url>
 <url>
@@ -61,7 +69,15 @@
 <lastmod>2017-11-18T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/browse/static/</loc>
+<lastmod>2017-11-18T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/browse/why-get-a-personal-domain/</loc>
+<lastmod>2017-11-18T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/browse/wordpress/</loc>
 <lastmod>2017-11-18T00:00:00+00:00</lastmod>
 </url>
 <url>
@@ -87,7 +103,7 @@
 <loc>http://localhost:4000/browse/managing-your-content/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/browse/publication/</loc>
+<loc>http://localhost:4000/browse/publishing-your-content/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/browse/sharing-your-content/</loc>
@@ -102,6 +118,9 @@
 <loc>http://localhost:4000/browse/sub/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/browse/cms/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/browse/owning-your-domain/</loc>
 </url>
 <url>
@@ -109,5 +128,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/browse/your-identity-on-the-web/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/browse/static/</loc>
 </url>
 </urlset>
