@@ -26,4 +26,4 @@ The best option for most will be a paid-for personal domain which you have compl
 - [Namecheap](https://www.namecheap.com)
 
 ## 4. Next steps
-- [Publishing your content online](/browse/publication)
+- [Publishing your content online](/browse/publishing-your-content)
